@@ -5,3 +5,5 @@ This is a project from [Flutter Advanced Course - Clean Architecture With MVVM](
 Use https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html to generate app launcher
 
 Or use https://icon.kitchen to generate app icon
+
+for SVG use flutter_svg package

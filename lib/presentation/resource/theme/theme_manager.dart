@@ -55,6 +55,7 @@ class ThemeManager {
       textTheme: TextTheme(
         headline1: getTextStyle(color: ColorManager.darkGray, fontSize: FontManager.s16, fontWeight: FontManager.semiBold),
         subtitle1: getTextStyle(color: ColorManager.lightGrey, fontSize: FontManager.s14, fontWeight: FontManager.medium),
+        subtitle2: getTextStyle(color: ColorManager.primary, fontSize: FontManager.s14, fontWeight: FontManager.medium),
         caption: getTextStyle(color: ColorManager.grey1),
         bodyText1: getTextStyle(color: ColorManager.grey),
       ),
