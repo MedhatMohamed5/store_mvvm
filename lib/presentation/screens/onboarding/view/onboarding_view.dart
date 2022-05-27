@@ -62,7 +62,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               body: PageView.builder(
                 physics: const BouncingScrollPhysics(),
                 itemBuilder: (context, index) {
-                  return OnBoardingWidget(sliderViewObject.sliderObject);
+                  return OnBoardingWidget(sliderViewObject.sliders[index]);
                 },
                 controller: _pageController,
                 itemCount: sliderViewObject.numberOfSlides,

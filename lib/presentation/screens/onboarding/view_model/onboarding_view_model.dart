@@ -87,7 +87,7 @@ class OnBoardingViewModel extends BaseViewModel with OnBoardingViewModelInputs, 
   void _postDataToView() {
     inputSliderViewObject.add(
       SliderViewObject(
-        _sliders[_currentIndex],
+        _sliders,
         _sliders.length,
         _currentIndex,
       ),
@@ -108,11 +108,11 @@ abstract class OnBoardingViewModelOutputs {
 }
 
 class SliderViewObject {
-  SliderObject sliderObject;
+  List<SliderObject> sliders;
   int numberOfSlides;
   int currentIndex;
   SliderViewObject(
-    this.sliderObject,
+    this.sliders,
     this.numberOfSlides,
     this.currentIndex,
   );
