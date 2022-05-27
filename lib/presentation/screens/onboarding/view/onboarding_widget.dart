@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:store_mvvm/domain/onboarding/slider_object_model.dart';
 import 'package:store_mvvm/presentation/resource/theme/values_manger.dart';
-import 'package:store_mvvm/presentation/screens/onboarding/models/slider_object.dart';
 
 class OnBoardingWidget extends StatelessWidget {
   final SliderObject _object;
